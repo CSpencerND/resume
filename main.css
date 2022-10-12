@@ -648,28 +648,12 @@ video {
      * Dark themes can be more generic and still look good and make sense
      */
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
 .top-\[initial\] {
   top: initial;
 }
 
 .bottom-0 {
   bottom: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.m-auto {
-  margin: auto;
 }
 
 .mx-auto {
@@ -693,10 +677,6 @@ video {
   margin-bottom: 1.125rem;
 }
 
-.flex {
-  display: flex;
-}
-
 .grid {
   display: grid;
 }
@@ -709,28 +689,6 @@ video {
   height: 100vh;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-fit {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-max {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
-.h-min {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-}
-
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -739,32 +697,12 @@ video {
   max-width: 100%;
 }
 
-.grow {
-  flex-grow: 1;
-}
-
 .grid-cols-\[1fr_2fr\] {
   grid-template-columns: 1fr 2fr;
 }
 
 .grid-cols-\[1px_1fr\] {
   grid-template-columns: 1px 1fr;
-}
-
-.items-end {
-  align-items: flex-end;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.items-baseline {
-  align-items: baseline;
-}
-
-.items-stretch {
-  align-items: stretch;
 }
 
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
@@ -827,14 +765,6 @@ video {
 
 .pl-2 {
   padding-left: 0.5rem;
-}
-
-.align-middle {
-  vertical-align: middle;
-}
-
-.align-bottom {
-  vertical-align: bottom;
 }
 
 .text-2xl {
@@ -1104,4 +1034,3 @@ video {
     padding-bottom: 1.5rem;
   }
 }
-
